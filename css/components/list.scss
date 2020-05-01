@@ -1,0 +1,39 @@
+
+
+.list-nav {
+	display:block;
+	list-style-type: none;
+  	margin: 0;
+ 	padding: 0;
+ 	margin:6px 0;
+}
+
+.list-nav li{
+	display:block;
+}
+
+.list-nav li a{
+  display: inline-block;
+  line-height:34px;
+  text-decoration: none;
+}
+
+.list-inline,.list-inline li{
+	display:inline-block;
+}
+
+@media (min-width: $grid-break-point) {
+	.list-nav,.list-nav li{
+		margin:0;
+		display:inline-block;
+	}
+
+	.list-nav li a{
+		padding:0 6px;
+	}
+
+	.list-nav li:first-child a{
+		margin-left:6px;
+	}
+
+}

@@ -1,0 +1,63 @@
+/* typography and text css */
+
+.t-l{ text-align: left; }
+.t-r{ text-align: right; }
+.t-c{ text-align: center; }
+.t-j{ text-align:justify; }
+
+.t-b{ font-weight: bold; }
+.t-i{ font-style: italic; }
+.t-u{ text-decoration: underline; }
+
+.t-uc{ text-transform: uppercase; }
+.t-lc{ text-transform: lowercase; }
+
+.t-small{font-size:small;}
+.t-large{font-size:large;}
+
+.t-nowrap{white-space:nowrap;}
+
+.t-truncate{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+h1 {
+	padding:0;
+	margin:0;
+	font-size: 1.2rem;
+	font-weight:inherit;
+	display:inline-block;	
+	line-height: 2rem;
+	margin-bottom:0.5rem;
+	vertical-align:middle;
+}
+
+h2 {
+	padding:0;
+	margin:0;
+	font-size: 1.1rem;
+	font-weight:inherit;
+	display:inline-block;
+	line-height: 2rem;
+	margin-bottom:0.5rem;
+	vertical-align:middle;
+}
+
+h3,h4,h5,h6 {
+	padding:0;
+	margin:0;
+	// font-size:16px;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight:inherit;
+}
+p,ul,li{
+	line-height:1.5rem;
+}
+ul{
+	list-style-position: inside;
+	list-style-type: square;
+	margin-left:1rem;
+}

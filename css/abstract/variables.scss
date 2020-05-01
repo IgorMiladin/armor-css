@@ -1,0 +1,79 @@
+
+$grid-break-point: 960px;
+$grid-gutter-width: 4%; /* gutter width for the columns */
+$grid-pack: 90%;
+/* colors */
+
+
+/* RED COLOR #E61C1C */
+/* basic */
+// $bg-color:#FFF;
+
+
+// $text-color:#151515;
+// $color-bg:#FFFFFF;
+
+
+// $color-text:#151515;
+// $color-link:#074CBB;
+// $color-button:#074CBB;
+// $color-link-hover:#0645ad;  //comment
+// $color-border:#737373;
+// $color-placeholder:#767676;
+
+
+
+$color-white: #FFF;
+$color-black: #000;
+
+$color-gray: #595959;
+$color-gray-dark: #151515;
+$color-gray-mid: #2B2B2B;
+$color-gray-light: #757575;
+$color-gray-lightest:#C3C3C3;
+
+$color-red: #E61C1C;
+$color-red-dark: #DB273F;
+
+
+// $btn-color-bg: #3A51AF;
+// $btn-color-text: #FFF;
+// $btn-color-border: #1A33FF;
+
+// $btn-active-border-color:#111; /* when clicked buttons have a shadow */
+
+// $btn-disabled-bg:#DEDEDE;
+// $btn-disabled-text:#FFF;
+
+// $btn-hover-color:#0C1E93;
+
+// $btn-red-color: #B1131B;
+// $btn-red-hover-color:#8A0F15;
+
+// $btn-dark-color:#151515;
+// $btn-dark-hover-color:#000;
+
+// $btn-outline-color:#3E3E3F;
+
+// $input-bg-color:transparent;
+// $input-text-color:#151515;
+// $input-border-color:#767676;/* */
+// $input-border-hover-color:#1A1A1A;
+
+// $focus-gap-color:$bg-color;
+// $focus-color:#9da8b0;
+
+/* Colors and their contrast */
+
+/* White Background */
+/* #595959  7:1     minimum for text */
+/* #757575  4.6:1   failed by regular text */
+/* #151515  18.3:1 	text */
+/* #000000  21:1 	full bkacl */
+
+/* #005D93 7:1 		Blue */
+/*
+
+GREEN: #00681F
+RED: #B60000 ;
+*/

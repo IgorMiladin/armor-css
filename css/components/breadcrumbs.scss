@@ -1,0 +1,10 @@
+.breadcrumbs,.random{
+	font-size:smaller;	
+}
+.breadcrumbs a:link,a:visited{
+	color:$color-gray-light;
+	text-decoration:none;
+}
+.breadcrumbs a:hover{
+	text-decoration:underline;
+}

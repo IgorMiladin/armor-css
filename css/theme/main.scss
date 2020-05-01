@@ -1,0 +1,257 @@
+
+body{
+  background: $color-white;
+  color: $color-gray-dark;
+   font-family: "Open Sans", BlinkMacSystemFont, -apple-system, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+::-moz-selection { 
+	background: $color-red ;
+	color: $color-white; 
+}
+
+::selection { 
+	background: $color-red;
+	color: $color-white; 
+}
+
+// a:link, a:visited, a:active { 
+// 	color: $color-red; 
+// }
+
+// a:hover, a:focus{ 
+// 	color: $color-red-dark;
+// }
+
+// a:focus{ 
+// 	box-shadow: 0 0 0 2px $color-white, 0 0 0 5px $color-gray-lightest; 
+// }
+
+header{
+	border-bottom:1px solid $color-gray-light;
+}
+
+.subheader{
+	// border-bottom:1px solid $color-gray-light;	
+}
+
+
+#main{
+
+}
+.page-title{	
+	margin-top:1rem;
+	margin-bottom:0.5rem;
+}
+
+.section-title{
+	margin-top:1rem;
+	margin-bottom:0.5rem;
+	line-height:36px;
+}
+
+.game-card{
+	margin-bottom:1rem;
+}
+.game-card-image{
+	position: relative;
+	margin-bottom:0.5rem;
+	height:4rem;
+	border:2px solid $color-gray-dark;
+	overflow:hidden;
+	border-radius:8px;
+	transition: all 0.5s;
+}
+.game-card-image img{
+	// border-radius:8px;
+	object-fit: cover;
+	height:9rem;
+	width:100%;
+}
+.game-card:hover .game-card-image{
+border-color:$color-red;
+}
+.game-card:hover .game-card-image img{
+	filter: contrast(110%) brightness(1.1);
+
+}
+.game-card-platform{
+	position:absolute;
+	right: 0.5rem;
+	bottom:0.5rem;
+	color:$color-white;
+	text-shadow: 0 0 3px $color-gray-dark;
+	pointer-events:none;
+	user-select: none;
+}
+.game-card-title{
+	font-size:1rem;
+	line-height:1.5rem;
+	height:3rem;
+	overflow: hidden;
+	text-align:center;
+
+
+}
+.game-card-title a:link,.game-card-title a:visited{
+	color:$color-black;
+}
+.game-card:hover .game-card-title a:link,.game-card:hover .game-card-title a:visited,.game-card-title a:focus{
+	color:$color-red;
+	text-decoration:none;
+	box-shadow:none;
+}
+
+.bh{
+	height: 36px;
+	height:calc(2rem + 4px);
+}
+.lh-bh{
+	line-height:36px;
+	line-height:calc(2rem + 4px);
+	vertical-align:middle;
+}
+
+
+
+
+@media (min-width: $grid-break-point) {
+
+	.game-card-image,.game-card-image img{
+
+		height:9rem;
+
+	}
+}
+
+
+//@import 'layout/navigation';
+//@import 'layout/header';
+//@import 'layout/footer';
+//@import 'layout/sidebar';
+
+
+// @import 'components/forms.scss'; //forms
+// @import 'components/buttons.scss'; //buttons
+// @import 'components/icons.scss'; //icons
+
+
+//@import 'components/carousel';
+//@import 'components/cover';
+//@import 'components/dropdown';
+
+//@import 'pages/home';
+//@import 'pages/contact';
+
+//@import 'themes/theme';
+//@import 'themes/admin';
+
+body{
+	background:#FFF;
+	// font-size:19.2px;
+	// font-size:1.1rem;
+	color:#313131;
+
+}
+
+// .menu{
+// 	display:inline-block;
+// 	font-weight:500;
+// }
+
+// .menu a:link,.menu a:visited{
+// 	margin-right:16px;
+// 	color:$color-gray-dark;
+// }
+
+// .menu a:hover{
+// 	text-decoration:underline;
+// }
+// .logo img{
+// 	   filter: invert(0) sepia(1) saturate(57) hue-rotate(5deg);
+// }
+.header{
+	border-bottom:1px solid #e3e3e3;
+	padding:12px 0;
+}
+
+.navigation a:link, .navigation a:visited{
+	color:$color-gray-dark;
+}
+.navigation a:hover{
+	color:$color-red;
+}
+
+.main {
+}
+// .header a:hover{
+// 	text-decoration:none;
+// }
+
+// .subheader{
+	
+// 	font-size:small;
+// 	// font-weight:500;
+// 	color:#595959;
+// }
+// .subheader a:link,.subheader a:visited{
+// 	color:#595959;
+// 	text-decoration:none;
+// }
+// .subheader a:hover{
+// 	text-decoration:underline;
+// }
+
+// .social-links{
+// 	font-size:1.5rem;
+// 	vertical-align:middle;
+// }
+// .logo{
+// 	margin-right:1rem;
+// }
+
+// .breadcrumbs{
+// }
+// .breadcrumbs span{
+// }
+
+// .box{
+// 	background:#F6F6F6;
+// 	border-radius:8px;
+// 	padding:1rem;
+
+// }
+
+// // @import 'layout/grid.scss'; //grid system
+
+
+// hr{
+// 	background:#767676;
+// }
+
+
+// .post img{
+	
+// 	max-width:100%;
+// 	border-radius:8px;
+// 	object-fit:cover;
+// 	display:block;
+// 	max-height:12rem;
+// 	margin-left:auto;
+// 	margin-right:auto;
+// }
+
+// @media (min-width: 960px) {
+
+
+// 	.post img{
+	
+// 		max-width:50%;
+// 		float:right;
+// 		clear:both;
+// 		border-radius:8px;
+// 		object-fit:cover;
+// 		display:block;
+// 	}
+// }
+

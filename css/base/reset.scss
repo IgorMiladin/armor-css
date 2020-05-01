@@ -1,0 +1,85 @@
+html, body, div, span, iframe, p, blockquote, pre,
+a,code, img, 
+b, u, i, ol, ul, li, form, label,
+article, aside, canvas,embed, footer, header, nav, section,input,button,select,textarea,hr ,main {
+  background: transparent;
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  float:none;
+  font:inherit;
+  box-shadow:none;
+
+}
+
+main{
+  display:block;
+}
+
+article, aside, footer, header,  menu, nav, section {
+  display: block;
+}
+
+body {	
+  width: 100%;
+  min-width: 240px;	  
+  left: 0;
+  top: 0;
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: 'Open Sans', BlinkMacSystemFont, -apple-system, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 24px;
+  line-height: 1.5rem;
+  font-weight:600;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr { border:0;height: 1px; background: #B5B5B5;}
+img, iframe { vertical-align: top; overflow: hidden; display: inline-block; max-width:100%;  border-style: none;border:0;}	
+
+
+/*
+:focus { 
+  outline-color: transparent;
+  outline-width: thin;
+  outline-style: solid;
+  border-radius:2px;
+  box-shadow: 0 0 0 2px $focus-gap-color, 0 0 0 5px $focus-color;
+}
+*/
+
+.hidden[hidden] {
+    display: none;
+}
+			
+
+// code{
+// 	font-family:Courier New, monospace;
+// 	border-color:#DDDDDD;
+// 	background:#FAFAFA;
+// 	display:inline-block;
+// 	border-width:1px;
+// 	border-style:solid;
+// 	padding-left:4px;
+// 	padding-right:4px;
+// 	white-space: pre;
+// }
+
+/* 
+a:link > img { transition: opacity 0.3s ease-in-out; }
+a:hover > img, a:focus > img{ opacity:0.75; }
+*/

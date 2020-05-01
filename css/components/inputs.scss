@@ -1,0 +1,96 @@
+.input{
+
+	display: inline-block;
+
+	font-family:inherit;
+	font-size: 100%;
+
+	padding: 0 12px;
+	margin:0;
+
+	text-decoration: none;
+	white-space: nowrap;
+	vertical-align: top;
+
+	min-width:230px;
+	border-radius:4px;
+
+	line-height:40px;
+	line-height:2.5rem;
+
+	transition: all 0.3s;
+
+	border-width:2px;
+	border-style: solid;
+
+	border-color: $color-gray-dark;
+	color: $color-gray-dark;
+	background: $color-white;
+}
+
+.input::placeholder{ color: $color-gray-lightest; }
+
+.input:focus{
+	  outline-color: transparent;
+  outline-width: thin;
+  outline-style: solid;
+  // box-shadow: 0 0 0 2px $focus-gap-color, 0 0 0 5px $focus-color;
+	box-shadow: 0 0 0 3px $color-gray-light;
+	border-color:$color-gray-dark;
+}
+.input:hover{
+	border-color:$color-black;
+}
+input[type="checkbox"],input[type="radio"]{
+	width: auto;
+	height: auto;
+	min-width:0;
+	margin-right:0.5rem;
+	vertical-align:baseline;
+	border:none;
+}
+
+input[type="checkbox"],input[type="radio"]{
+	width: auto;
+	height: auto;
+	min-width:0;
+	margin-right:0.5rem;
+	vertical-align:baseline;
+	border:none;
+}
+
+select.input,textarea.input{ 
+	vertical-align: top;
+	min-width:230px;
+}
+select.input{ 
+	padding-left:6px;
+	height:44px;
+	height:calc(2.5rem + 4px);
+
+	background: $color-white;
+}
+
+
+textarea.input { 
+	resize: vertical; 
+	line-height:24px;
+	line-height:1.5rem;
+	padding-top:8px;
+	white-space: normal;
+}
+
+textarea.big{
+	height:15rem;
+}
+
+.form{
+	min-width:240px;
+}
+
+.label{
+	height:44px;
+	height:calc(2.5rem + 4px);
+	line-height:44px;
+	line-height:calc(2.5rem + 4px);
+}

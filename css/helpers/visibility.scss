@@ -1,0 +1,38 @@
+
+.d-hide{
+	display:inline-block;
+}
+.m-hide{
+	display:none;
+}
+
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000000;
+  color: white;
+  padding: 8px;
+  z-index: 100;  
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+@media (min-width: $grid-break-point) {
+
+	.d-hide{
+		display:none;
+	}
+	.m-hide{
+		display:inline-block;
+	}
+
+}
+
+.hidden{
+	display:none;
+	visibility:hidden;
+}
